@@ -14,7 +14,7 @@ body {
 header {
 	text-align: center;
 	font-family: "Lato", sans-serif;
-	margin: 140px 0 70px 0;
+	margin: 150px 0 50px 0;
 }
 header h1 {
 	text-transform: uppercase;
@@ -26,7 +26,8 @@ header h1 {
 	margin: 0 auto 35px auto;
 	border: 2px solid rgb(25, 181, 254);
 }
-header h2 {letter-spacing: 1px; font-weight: normal; font-size: 22px; margin: 0;}
+header h2 {letter-spacing: 1px; font-weight: normal; font-size: 22px; margin-bottom: 50px;}
+/*header i.fa{font-size: 64px; color: rgb(244, 179, 80);}*/
 
 .content {width: 500px; margin:0 auto;}
 .content p {line-height: 30px; text-align: justify;}
@@ -72,7 +73,8 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 form input[type="submit"]:hover {
-	border-color: rgb(30, 139, 195);
+	background-color: rgb(30, 139, 195);
+	border: 2px solid rgb(30, 139, 195);
 }
 form input[type="submit"]:focus {
 	border-color: rgb(30, 139, 195);
