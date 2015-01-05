@@ -16,7 +16,8 @@ header {
 	font-family: "Lato", sans-serif;
 	margin: 150px 0 50px 0;
 }
-header h1 {
+#about header {margin-top: 100px;}
+#homepage header h1 {
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	border-radius: 28px;
@@ -81,6 +82,13 @@ form input[type="submit"]:focus {
 	outline: none;
 }
 
+footer{text-align: center; margin: 50px 0;}
+footer .link{
+	text-align: center;
+	font-size: 14px;
+	color: rgb(25, 181, 254);
+}
+.link:hover{text-decoration: none;}
 
 
 
