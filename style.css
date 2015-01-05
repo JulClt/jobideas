@@ -87,6 +87,7 @@ footer .link{
 	text-align: center;
 	font-size: 14px;
 	color: rgb(25, 181, 254);
+	margin-right: 15px;
 }
 .link:hover{text-decoration: none;}
 
